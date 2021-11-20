@@ -22,7 +22,7 @@ function Copyright(props) {
     <Typography variant="body2" color="text.secondary" align="center" {...props}>
       {'Copyright © '}
       <Link color="inherit" href="https://www.youtube.com/watch?v=pkmRW-Dze20&list=PLSx5HT-nMTzyvZ_d1vL9mqVrr5bSFchFA&index=4">
-       APP NAME
+      CLOTHING STORE-C-M-Y
       </Link>{' '}
       {new Date().getFullYear()}
       {'.'}
@@ -76,6 +76,8 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
   }),
 );
 
+
+
 const mdTheme = createTheme();
 
 const DashboardContent = (props) => {
@@ -113,13 +115,15 @@ const DashboardContent = (props) => {
               noWrap
               sx={{ flexGrow: 1 }}
             >
-              App name
-            </Typography>
+              CLOTHING STORE-C-M-Y
+             </Typography>
+          
             <IconButton color="inherit">
               <Badge badgeContent={4} color="secondary">
                 <NotificationsIcon />
               </Badge>
             </IconButton>
+            
           </Toolbar>
         </AppBar>
         <Drawer variant="permanent" open={open}>
